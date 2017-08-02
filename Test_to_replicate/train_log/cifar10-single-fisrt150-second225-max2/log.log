@@ -1,0 +1,290 @@
+[32m[0802 19:14:34 @logger.py:73][0m Argv: DenseNet.py --max_epoch 2
+[32m[0802 19:14:34 @fs.py:89][0m [5m[31mWRN[0m Env var $TENSORPACK_DATASET not set, using /home/vishwajeet/tensorpack_data for datasets.
+[32m[0802 19:14:34 @cifar.py:33][0m Found cifar10 data in /home/vishwajeet/tensorpack_data/cifar10_data.
+[32m[0802 19:14:34 @cifar.py:33][0m Found cifar10 data in /home/vishwajeet/tensorpack_data/cifar10_data.
+[32m[0802 19:14:35 @input_source.py:223][0m Setting up the queue for CPU prefetching ...
+[32m[0802 19:14:35 @multigpu.py:66][0m Training a model of 1 tower
+[32m[0802 19:14:35 @multigpu.py:93][0m Building graph for training tower 0...
+[32m[0802 19:14:35 @common.py:129][0m conv0 input: [None, 32, 32, 3]
+[32m[0802 19:14:35 @common.py:137][0m conv0 output: [None, 32, 32, 16]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.0/conv1 input: [None, 32, 32, 16]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.0/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.1/conv1 input: [None, 32, 32, 28]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.1/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.2/conv1 input: [None, 32, 32, 40]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.2/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.3/conv1 input: [None, 32, 32, 52]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.3/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.4/conv1 input: [None, 32, 32, 64]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.4/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.5/conv1 input: [None, 32, 32, 76]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.5/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.6/conv1 input: [None, 32, 32, 88]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.6/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.7/conv1 input: [None, 32, 32, 100]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.7/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.8/conv1 input: [None, 32, 32, 112]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.8/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.9/conv1 input: [None, 32, 32, 124]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.9/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.10/conv1 input: [None, 32, 32, 136]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.10/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/dense_layer.11/conv1 input: [None, 32, 32, 148]
+[32m[0802 19:14:35 @common.py:137][0m block1/dense_layer.11/conv1 output: [None, 32, 32, 12]
+[32m[0802 19:14:35 @common.py:129][0m block1/transition1/conv1 input: [None, 32, 32, 160]
+[32m[0802 19:14:35 @common.py:137][0m block1/transition1/conv1 output: [None, 32, 32, 160]
+[32m[0802 19:14:35 @common.py:129][0m block1/transition1/pool input: [None, 32, 32, 160]
+[32m[0802 19:14:35 @common.py:137][0m block1/transition1/pool output: [None, 16, 16, 160]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.0/conv1 input: [None, 16, 16, 160]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.0/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.1/conv1 input: [None, 16, 16, 172]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.1/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.2/conv1 input: [None, 16, 16, 184]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.2/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.3/conv1 input: [None, 16, 16, 196]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.3/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.4/conv1 input: [None, 16, 16, 208]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.4/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.5/conv1 input: [None, 16, 16, 220]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.5/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.6/conv1 input: [None, 16, 16, 232]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.6/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.7/conv1 input: [None, 16, 16, 244]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.7/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.8/conv1 input: [None, 16, 16, 256]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.8/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.9/conv1 input: [None, 16, 16, 268]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.9/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.10/conv1 input: [None, 16, 16, 280]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.10/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/dense_layer.11/conv1 input: [None, 16, 16, 292]
+[32m[0802 19:14:35 @common.py:137][0m block2/dense_layer.11/conv1 output: [None, 16, 16, 12]
+[32m[0802 19:14:35 @common.py:129][0m block2/transition2/conv1 input: [None, 16, 16, 304]
+[32m[0802 19:14:35 @common.py:137][0m block2/transition2/conv1 output: [None, 16, 16, 304]
+[32m[0802 19:14:35 @common.py:129][0m block2/transition2/pool input: [None, 16, 16, 304]
+[32m[0802 19:14:35 @common.py:137][0m block2/transition2/pool output: [None, 8, 8, 304]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.0/conv1 input: [None, 8, 8, 304]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.0/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.1/conv1 input: [None, 8, 8, 316]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.1/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.2/conv1 input: [None, 8, 8, 328]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.2/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.3/conv1 input: [None, 8, 8, 340]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.3/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.4/conv1 input: [None, 8, 8, 352]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.4/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.5/conv1 input: [None, 8, 8, 364]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.5/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.6/conv1 input: [None, 8, 8, 376]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.6/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.7/conv1 input: [None, 8, 8, 388]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.7/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.8/conv1 input: [None, 8, 8, 400]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.8/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.9/conv1 input: [None, 8, 8, 412]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.9/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.10/conv1 input: [None, 8, 8, 424]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.10/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m block3/dense_layer.11/conv1 input: [None, 8, 8, 436]
+[32m[0802 19:14:35 @common.py:137][0m block3/dense_layer.11/conv1 output: [None, 8, 8, 12]
+[32m[0802 19:14:35 @common.py:129][0m gap input: [None, 8, 8, 448]
+[32m[0802 19:14:35 @common.py:137][0m gap output: [None, 448]
+[32m[0802 19:14:35 @common.py:129][0m linear input: [None, 448]
+[32m[0802 19:14:35 @common.py:137][0m linear output: [None, 10]
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for conv0/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.0/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.1/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.2/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.3/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.4/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.5/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.6/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.7/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.8/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.9/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.10/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/dense_layer.11/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block1/transition1/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.0/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.1/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.2/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.3/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.4/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.5/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.6/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.7/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.8/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.9/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.10/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/dense_layer.11/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block2/transition2/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.0/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.1/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.2/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.3/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.4/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.5/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.6/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.7/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.8/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.9/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.10/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for block3/dense_layer.11/conv1/W:0
+[32m[0802 19:14:35 @regularize.py:18][0m Apply regularizer for linear/W:0
+[32m[0802 19:14:36 @model_utils.py:47][0m [36mModel Parameters: 
+[0mname                               shape               dim
+---------------------------------  ----------------  -----
+conv0/W:0                          [3, 3, 3, 16]       432
+block1/dense_layer.0/bn1/beta:0    [16]                 16
+block1/dense_layer.0/bn1/gamma:0   [16]                 16
+block1/dense_layer.0/conv1/W:0     [3, 3, 16, 12]     1728
+block1/dense_layer.1/bn1/beta:0    [28]                 28
+block1/dense_layer.1/bn1/gamma:0   [28]                 28
+block1/dense_layer.1/conv1/W:0     [3, 3, 28, 12]     3024
+block1/dense_layer.2/bn1/beta:0    [40]                 40
+block1/dense_layer.2/bn1/gamma:0   [40]                 40
+block1/dense_layer.2/conv1/W:0     [3, 3, 40, 12]     4320
+block1/dense_layer.3/bn1/beta:0    [52]                 52
+block1/dense_layer.3/bn1/gamma:0   [52]                 52
+block1/dense_layer.3/conv1/W:0     [3, 3, 52, 12]     5616
+block1/dense_layer.4/bn1/beta:0    [64]                 64
+block1/dense_layer.4/bn1/gamma:0   [64]                 64
+block1/dense_layer.4/conv1/W:0     [3, 3, 64, 12]     6912
+block1/dense_layer.5/bn1/beta:0    [76]                 76
+block1/dense_layer.5/bn1/gamma:0   [76]                 76
+block1/dense_layer.5/conv1/W:0     [3, 3, 76, 12]     8208
+block1/dense_layer.6/bn1/beta:0    [88]                 88
+block1/dense_layer.6/bn1/gamma:0   [88]                 88
+block1/dense_layer.6/conv1/W:0     [3, 3, 88, 12]     9504
+block1/dense_layer.7/bn1/beta:0    [100]               100
+block1/dense_layer.7/bn1/gamma:0   [100]               100
+block1/dense_layer.7/conv1/W:0     [3, 3, 100, 12]   10800
+block1/dense_layer.8/bn1/beta:0    [112]               112
+block1/dense_layer.8/bn1/gamma:0   [112]               112
+block1/dense_layer.8/conv1/W:0     [3, 3, 112, 12]   12096
+block1/dense_layer.9/bn1/beta:0    [124]               124
+block1/dense_layer.9/bn1/gamma:0   [124]               124
+block1/dense_layer.9/conv1/W:0     [3, 3, 124, 12]   13392
+block1/dense_layer.10/bn1/beta:0   [136]               136
+block1/dense_layer.10/bn1/gamma:0  [136]               136
+block1/dense_layer.10/conv1/W:0    [3, 3, 136, 12]   14688
+block1/dense_layer.11/bn1/beta:0   [148]               148
+block1/dense_layer.11/bn1/gamma:0  [148]               148
+block1/dense_layer.11/conv1/W:0    [3, 3, 148, 12]   15984
+block1/transition1/bn1/beta:0      [160]               160
+block1/transition1/bn1/gamma:0     [160]               160
+block1/transition1/conv1/W:0       [1, 1, 160, 160]  25600
+block2/dense_layer.0/bn1/beta:0    [160]               160
+block2/dense_layer.0/bn1/gamma:0   [160]               160
+block2/dense_layer.0/conv1/W:0     [3, 3, 160, 12]   17280
+block2/dense_layer.1/bn1/beta:0    [172]               172
+block2/dense_layer.1/bn1/gamma:0   [172]               172
+block2/dense_layer.1/conv1/W:0     [3, 3, 172, 12]   18576
+block2/dense_layer.2/bn1/beta:0    [184]               184
+block2/dense_layer.2/bn1/gamma:0   [184]               184
+block2/dense_layer.2/conv1/W:0     [3, 3, 184, 12]   19872
+block2/dense_layer.3/bn1/beta:0    [196]               196
+block2/dense_layer.3/bn1/gamma:0   [196]               196
+block2/dense_layer.3/conv1/W:0     [3, 3, 196, 12]   21168
+block2/dense_layer.4/bn1/beta:0    [208]               208
+block2/dense_layer.4/bn1/gamma:0   [208]               208
+block2/dense_layer.4/conv1/W:0     [3, 3, 208, 12]   22464
+block2/dense_layer.5/bn1/beta:0    [220]               220
+block2/dense_layer.5/bn1/gamma:0   [220]               220
+block2/dense_layer.5/conv1/W:0     [3, 3, 220, 12]   23760
+block2/dense_layer.6/bn1/beta:0    [232]               232
+block2/dense_layer.6/bn1/gamma:0   [232]               232
+block2/dense_layer.6/conv1/W:0     [3, 3, 232, 12]   25056
+block2/dense_layer.7/bn1/beta:0    [244]               244
+block2/dense_layer.7/bn1/gamma:0   [244]               244
+block2/dense_layer.7/conv1/W:0     [3, 3, 244, 12]   26352
+block2/dense_layer.8/bn1/beta:0    [256]               256
+block2/dense_layer.8/bn1/gamma:0   [256]               256
+block2/dense_layer.8/conv1/W:0     [3, 3, 256, 12]   27648
+block2/dense_layer.9/bn1/beta:0    [268]               268
+block2/dense_layer.9/bn1/gamma:0   [268]               268
+block2/dense_layer.9/conv1/W:0     [3, 3, 268, 12]   28944
+block2/dense_layer.10/bn1/beta:0   [280]               280
+block2/dense_layer.10/bn1/gamma:0  [280]               280
+block2/dense_layer.10/conv1/W:0    [3, 3, 280, 12]   30240
+block2/dense_layer.11/bn1/beta:0   [292]               292
+block2/dense_layer.11/bn1/gamma:0  [292]               292
+block2/dense_layer.11/conv1/W:0    [3, 3, 292, 12]   31536
+block2/transition2/bn1/beta:0      [304]               304
+block2/transition2/bn1/gamma:0     [304]               304
+block2/transition2/conv1/W:0       [1, 1, 304, 304]  92416
+block3/dense_layer.0/bn1/beta:0    [304]               304
+block3/dense_layer.0/bn1/gamma:0   [304]               304
+block3/dense_layer.0/conv1/W:0     [3, 3, 304, 12]   32832
+block3/dense_layer.1/bn1/beta:0    [316]               316
+block3/dense_layer.1/bn1/gamma:0   [316]               316
+block3/dense_layer.1/conv1/W:0     [3, 3, 316, 12]   34128
+block3/dense_layer.2/bn1/beta:0    [328]               328
+block3/dense_layer.2/bn1/gamma:0   [328]               328
+block3/dense_layer.2/conv1/W:0     [3, 3, 328, 12]   35424
+block3/dense_layer.3/bn1/beta:0    [340]               340
+block3/dense_layer.3/bn1/gamma:0   [340]               340
+block3/dense_layer.3/conv1/W:0     [3, 3, 340, 12]   36720
+block3/dense_layer.4/bn1/beta:0    [352]               352
+block3/dense_layer.4/bn1/gamma:0   [352]               352
+block3/dense_layer.4/conv1/W:0     [3, 3, 352, 12]   38016
+block3/dense_layer.5/bn1/beta:0    [364]               364
+block3/dense_layer.5/bn1/gamma:0   [364]               364
+block3/dense_layer.5/conv1/W:0     [3, 3, 364, 12]   39312
+block3/dense_layer.6/bn1/beta:0    [376]               376
+block3/dense_layer.6/bn1/gamma:0   [376]               376
+block3/dense_layer.6/conv1/W:0     [3, 3, 376, 12]   40608
+block3/dense_layer.7/bn1/beta:0    [388]               388
+block3/dense_layer.7/bn1/gamma:0   [388]               388
+block3/dense_layer.7/conv1/W:0     [3, 3, 388, 12]   41904
+block3/dense_layer.8/bn1/beta:0    [400]               400
+block3/dense_layer.8/bn1/gamma:0   [400]               400
+block3/dense_layer.8/conv1/W:0     [3, 3, 400, 12]   43200
+block3/dense_layer.9/bn1/beta:0    [412]               412
+block3/dense_layer.9/bn1/gamma:0   [412]               412
+block3/dense_layer.9/conv1/W:0     [3, 3, 412, 12]   44496
+block3/dense_layer.10/bn1/beta:0   [424]               424
+block3/dense_layer.10/bn1/gamma:0  [424]               424
+block3/dense_layer.10/conv1/W:0    [3, 3, 424, 12]   45792
+block3/dense_layer.11/bn1/beta:0   [436]               436
+block3/dense_layer.11/bn1/gamma:0  [436]               436
+block3/dense_layer.11/conv1/W:0    [3, 3, 436, 12]   47088
+bnlast/beta:0                      [448]               448
+bnlast/gamma:0                     [448]               448
+linear/W:0                         [448, 10]          4480
+linear/b:0                         [10]                 10[36m
+Total #vars=119, #param=1019722 (3.89 MB assuming all float32)[0m
+[32m[0802 19:14:36 @base.py:138][0m Setup callbacks graph ...
+[32m[0802 19:14:37 @predictor_factory.py:59][0m Building predictor tower 'InferenceTower' on device /gpu:0 ...
+[32m[0802 19:14:37 @summary.py:30][0m Maintain moving average summary of 4 tensors.
+[32m[0802 19:14:37 @graph.py:79][0m Applying collection UPDATE_OPS of 78 ops.
+[32m[0802 19:14:37 @base.py:142][0m Creating the session ...
+[32m[0802 19:14:38 @sesscreate.py:34][0m Global variables initialized.
+[32m[0802 19:14:38 @base.py:146][0m Initializing the session ...
+[32m[0802 19:14:38 @base.py:153][0m Graph Finalized.
+[32m[0802 19:14:38 @concurrency.py:36][0m Starting EnqueueThread ...
+[32m[0802 19:14:38 @base.py:199][0m Start Epoch 1 ...
+[32m[0802 19:16:41 @base.py:209][0m Epoch 1 (global_step 781) finished, time:123.29 sec.
+[32m[0802 19:16:41 @saver.py:86][0m Model saved to train_log/cifar10-single-fisrt150-second225-max2/model-781.
+[32m[0802 19:16:50 @param.py:144][0m learning_rate at epoch 2 will change to 0.10000000
+[32m[0802 19:16:50 @monitor.py:309][0m QueueInput/queue_size: 50
+[32m[0802 19:16:50 @monitor.py:309][0m cross_entropy_loss: 1.08
+[32m[0802 19:16:50 @monitor.py:309][0m learning_rate: 0.1
+[32m[0802 19:16:50 @monitor.py:309][0m train_error: 0.39038
+[32m[0802 19:16:50 @monitor.py:309][0m val_error: 0.4749
+[32m[0802 19:16:50 @monitor.py:309][0m validation_cost: 2.1728
+[32m[0802 19:16:50 @monitor.py:309][0m wd_cost: 0.77406
+[32m[0802 19:16:50 @group.py:42][0m Callbacks took 8.342 sec in total. InferenceRunner: 8.302sec
+[32m[0802 19:16:50 @base.py:199][0m Start Epoch 2 ...
+[32m[0802 19:18:51 @base.py:209][0m Epoch 2 (global_step 1562) finished, time:121.15 sec.
+[32m[0802 19:18:51 @saver.py:86][0m Model saved to train_log/cifar10-single-fisrt150-second225-max2/model-1562.
+[32m[0802 19:18:59 @monitor.py:309][0m QueueInput/queue_size: 50
+[32m[0802 19:18:59 @monitor.py:309][0m cross_entropy_loss: 0.78968
+[32m[0802 19:18:59 @monitor.py:309][0m learning_rate: 0.1
+[32m[0802 19:18:59 @monitor.py:309][0m train_error: 0.27373
+[32m[0802 19:18:59 @monitor.py:309][0m val_error: 0.293
+[32m[0802 19:18:59 @monitor.py:309][0m validation_cost: 1.5518
+[32m[0802 19:18:59 @monitor.py:309][0m wd_cost: 0.69197
+[32m[0802 19:18:59 @group.py:42][0m Callbacks took 8.277 sec in total. InferenceRunner: 8.267sec
+[32m[0802 19:18:59 @base.py:213][0m Training has finished!
+[32m[0802 19:18:59 @input_source.py:199][0m EnqueueThread Exited.
