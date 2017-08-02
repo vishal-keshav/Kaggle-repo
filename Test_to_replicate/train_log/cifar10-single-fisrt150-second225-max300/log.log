@@ -1,3 +1,0 @@
-[32m[0802 18:47:30 @logger.py:73][0m Argv: DenseNet.py
-[32m[0802 18:47:30 @fs.py:89][0m [5m[31mWRN[0m Env var $TENSORPACK_DATASET not set, using /home/vishwajeet/tensorpack_data for datasets.
-[32m[0802 18:47:30 @fs.py:92][0m Created the directory /home/vishwajeet/tensorpack_data.
